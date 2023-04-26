@@ -1,0 +1,1014 @@
+{
+    "resource_model_id": "f35cc1ca-9322-11e9-a5cc-0242ac120006",
+    "resource_model_name": "Monument",
+    "nodes": [
+        {
+            "arches_nodeid": "ff59cbbc-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": " historical pakshya",
+            "file_field_name": " historical pakshya",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ff5a0910-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": " historicalnepalimonth",
+            "file_field_name": " historicalnepalimonth",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "27b699dc-9323-11e9-a015-0242ac120006",
+            "arches_node_name": "Alternative name(s)",
+            "file_field_name": "Alternative name(s)",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "27b696d0-9323-11e9-a015-0242ac120006",
+            "arches_node_name": "Anglicized name",
+            "file_field_name": "Anglicized name",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "d9f65514-9fc2-11e9-a638-0242ac140004",
+            "arches_node_name": "Architectural description",
+            "file_field_name": "Architectural description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f26362-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Base plinth width",
+            "file_field_name": "Base plinth width",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f27df2-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Base plinth's depth",
+            "file_field_name": "Base plinth's depth",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f27384-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Base plinth's height",
+            "file_field_name": "Base plinth's height",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f2723a-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Cakula Depth",
+            "file_field_name": "Cakula Depth",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f27622-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Cakula Height",
+            "file_field_name": "Cakula Height",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f2915c-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Cakula Width",
+            "file_field_name": "Cakula Width",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f27f50-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Capital Depth",
+            "file_field_name": "Capital Depth",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f28356-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Capital Height",
+            "file_field_name": "Capital Height",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f25778-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Capital Width",
+            "file_field_name": "Capital Width",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "61ef1d94-9ef5-11e9-8d7d-0242ac120006",
+            "arches_node_name": "City Quarter (Tol)",
+            "file_field_name": "City Quarter (Tol)",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f27c94-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Column Depth",
+            "file_field_name": "Column Depth",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f267a4-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Column Height",
+            "file_field_name": "Column Height",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f25be2-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Column Width",
+            "file_field_name": "Column Width",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "eaa138a2-a319-11e9-8e7b-0242ac140004",
+            "arches_node_name": "Current Status",
+            "file_field_name": "Current Status",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "87b63082-9ee9-11e9-badf-0242ac120006",
+            "arches_node_name": "Data entry internal remarks",
+            "file_field_name": "Data entry internal remarks",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "87b634e2-9ee9-11e9-badf-0242ac120006",
+            "arches_node_name": "Date of data entry ",
+            "file_field_name": "Date of data entry ",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "d9f64efc-9fc2-11e9-a638-0242ac140004",
+            "arches_node_name": "Description in Nepali",
+            "file_field_name": "Description in Nepali",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "d9f64830-9fc2-11e9-a638-0242ac140004",
+            "arches_node_name": "Detailed description",
+            "file_field_name": "Detailed description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "61ef154c-9ef5-11e9-8d7d-0242ac120006",
+            "arches_node_name": "District",
+            "file_field_name": "District",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f28b58-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Edge at platform",
+            "file_field_name": "Edge at platform",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8cdd76fc-c332-11e9-af2c-0242ac140003",
+            "arches_node_name": "Eventreferenceimagecaption",
+            "file_field_name": "Eventreferenceimagecaption",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "bc936bc2-c332-11e9-9bd7-0242ac140003",
+            "arches_node_name": "Eventreferenceimagedescription",
+            "file_field_name": "Eventreferenceimagedescription",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "1aed634a-c332-11e9-af2c-0242ac140003",
+            "arches_node_name": "Eventreferenceimagefile",
+            "file_field_name": "Eventreferenceimagefile",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "61ef1c4a-9ef5-11e9-8d7d-0242ac120006",
+            "arches_node_name": "Focus area",
+            "file_field_name": "Focus area",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f28202-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Forms of columns",
+            "file_field_name": "Forms of columns",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ff59be60-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": "Historical Event Description",
+            "file_field_name": "Historical Event Description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f25912-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Iconographical and decorative motifs",
+            "file_field_name": "Iconographical and decorative motifs",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f26ba0-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Iconography of struts",
+            "file_field_name": "Iconography of struts",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "28294784-9323-11e9-bf23-0242ac120006",
+            "arches_node_name": "Identification Number",
+            "file_field_name": "Identification Number",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "28294946-9323-11e9-bf23-0242ac120006",
+            "arches_node_name": "Identifier Type",
+            "file_field_name": "Identifier Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2ab25d92-9323-11e9-8381-0242ac120006",
+            "arches_node_name": "Imagebefore2015",
+            "file_field_name": "Imagebefore2015",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f28a0e-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Lintel Height",
+            "file_field_name": "Lintel Height",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f288ba-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Lintel depth",
+            "file_field_name": "Lintel depth",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f28cb6-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Lintel width",
+            "file_field_name": "Lintel width",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f26650-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Monument Shape",
+            "file_field_name": "Monument Shape",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "61ef1af6-9ef5-11e9-8d7d-0242ac120006",
+            "arches_node_name": "Monument area ",
+            "file_field_name": "Monument area ",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f26146-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Monument depth",
+            "file_field_name": "Monument depth",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f26a4c-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Monument diameter",
+            "file_field_name": "Monument diameter",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f28608-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Monument height ",
+            "file_field_name": "Monument height ",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "b97cb40c-9ee8-11e9-ac4b-0242ac120006",
+            "arches_node_name": "Monument references",
+            "file_field_name": "Monument references",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "c2161190-ba8a-11e9-88bf-0242ac140006",
+            "arches_node_name": "Monument shape other",
+            "file_field_name": "Monument shape other",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2cc33458-9323-11e9-a3b4-0242ac120006",
+            "arches_node_name": "Monument type",
+            "file_field_name": "Monument type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "61ef16e6-9ef5-11e9-8d7d-0242ac120006",
+            "arches_node_name": "Municipality / Village Council",
+            "file_field_name": "Municipality / Village Council",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "27b69ca2-9323-11e9-a015-0242ac120006",
+            "arches_node_name": "Name in Devanagari",
+            "file_field_name": "Name in Devanagari",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "27b69874-9323-11e9-a015-0242ac120006",
+            "arches_node_name": "Name in Roman (with diacritical marks)",
+            "file_field_name": "Name in Roman (with diacritical marks)",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f27b22-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Number of bays Side",
+            "file_field_name": "Number of bays Side",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f27776-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Number of plinth",
+            "file_field_name": "Number of plinth",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f25ff2-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Number of roofs",
+            "file_field_name": "Number of roofs",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f270e6-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Number of storeys",
+            "file_field_name": "Number of storeys",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f28f5e-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Number of struts",
+            "file_field_name": "Number of struts",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4b84b5ce-9eea-11e9-8b93-0242ac120006",
+            "arches_node_name": "Object circumference",
+            "file_field_name": "Object circumference",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4b84bfa6-9eea-11e9-8b93-0242ac120006",
+            "arches_node_name": "Object depth",
+            "file_field_name": "Object depth",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4b84bace-9eea-11e9-8b93-0242ac120006",
+            "arches_node_name": "Object height",
+            "file_field_name": "Object height",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4b84bd80-9eea-11e9-8b93-0242ac120006",
+            "arches_node_name": "Object identification number",
+            "file_field_name": "Object identification number",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4b84ad90-9eea-11e9-8b93-0242ac120006",
+            "arches_node_name": "Object image",
+            "file_field_name": "Object image",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4b84aef8-9eea-11e9-8b93-0242ac120006",
+            "arches_node_name": "Object image caption",
+            "file_field_name": "Object image caption",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4b84aa48-9eea-11e9-8b93-0242ac120006",
+            "arches_node_name": "Object name",
+            "file_field_name": "Object name",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4b84b060-9eea-11e9-8b93-0242ac120006",
+            "arches_node_name": "Object width",
+            "file_field_name": "Object width",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f26cfe-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Peculiarities of doors and windows",
+            "file_field_name": "Peculiarities of doors and windows",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "87b6321c-9ee9-11e9-badf-0242ac120006",
+            "arches_node_name": "Person",
+            "file_field_name": "Person",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f274d8-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Platform's floor",
+            "file_field_name": "Platform's floor",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f280a4-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Profile at base",
+            "file_field_name": "Profile at base",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "61ef1844-9ef5-11e9-8d7d-0242ac120006",
+            "arches_node_name": "Province Number",
+            "file_field_name": "Province Number",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f28e0a-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Roofing",
+            "file_field_name": "Roofing",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "d9f65b72-9fc2-11e9-a638-0242ac140004",
+            "arches_node_name": "Short Description",
+            "file_field_name": "Short Description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "d61d682c-b0fe-11e9-8b01-0242ac120006",
+            "arches_node_name": "Spatial Coordinates Geometry",
+            "file_field_name": "Spatial Coordinates Geometry",
+            "data_type": "geojson-feature-collection",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f268f8-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Thickness of walls",
+            "file_field_name": "Thickness of walls",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f26f9c-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Top plinth's depth",
+            "file_field_name": "Top plinth's depth",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f25e94-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Top plinth's height",
+            "file_field_name": "Top plinth's height",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f25d36-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Top plinth's width",
+            "file_field_name": "Top plinth's width",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f284aa-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Type of bricks",
+            "file_field_name": "Type of bricks",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f25a84-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "Type of roof",
+            "file_field_name": "Type of roof",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "87b63640-9ee9-11e9-badf-0242ac120006",
+            "arches_node_name": "Work",
+            "file_field_name": "Work",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "87b63384-9ee9-11e9-badf-0242ac120006",
+            "arches_node_name": "data entry status ",
+            "file_field_name": "data entry status ",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "66fd9c70-ce1b-11e9-b993-0242ac140002",
+            "arches_node_name": "editor",
+            "file_field_name": "editor",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ff59c4be-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": "historical construction period",
+            "file_field_name": "historical construction period",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ff59f6a0-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": "historical date (BCE/CE) ",
+            "file_field_name": "historical date (BCE/CE) ",
+            "data_type": "edtf",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ff59d792-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": "historical enddate",
+            "file_field_name": "historical enddate",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ff5a1d9c-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": "historical event category",
+            "file_field_name": "historical event category",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ff5a033e-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": "historical event image caption",
+            "file_field_name": "historical event image caption",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ff59de54-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": "historical event name",
+            "file_field_name": "historical event name",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "530ef1b0-b100-11e9-9689-0242ac120006",
+            "arches_node_name": "historical event reference description",
+            "file_field_name": "historical event reference description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "33f62dbc-c333-11e9-9bd7-0242ac140003",
+            "arches_node_name": "historical event reference image",
+            "file_field_name": "historical event reference image",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ff59d1b6-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": "historical event references source",
+            "file_field_name": "historical event references source",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ff5a0ed8-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": "historical event references type",
+            "file_field_name": "historical event references type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ff59ea20-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": "historical event transliteration and translation",
+            "file_field_name": "historical event transliteration and translation",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "fae14018-b101-11e9-918b-0242ac120006",
+            "arches_node_name": "historical inscription identification ",
+            "file_field_name": "historical inscription identification ",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ff59fc72-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": "historical peculiarities",
+            "file_field_name": "historical peculiarities",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ff59e44e-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": "historical tithi",
+            "file_field_name": "historical tithi",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "02e8a884-b100-11e9-a13f-0242ac120006",
+            "arches_node_name": "historicaldetailimage",
+            "file_field_name": "historicaldetailimage",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "39e9bb98-b100-11e9-a7ae-0242ac120006",
+            "arches_node_name": "historicaldetailimagecaption",
+            "file_field_name": "historicaldetailimagecaption",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ff5a24ae-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": "historicaleventyear",
+            "file_field_name": "historicaleventyear",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ff5a15c2-a321-11e9-8e7b-0242ac140004",
+            "arches_node_name": "historicalgate",
+            "file_field_name": "historicalgate",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2a27aada-9323-11e9-84e4-0242ac120006",
+            "arches_node_name": "imageafter2015",
+            "file_field_name": "imageafter2015",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2a27ac74-9323-11e9-84e4-0242ac120006",
+            "arches_node_name": "imageafter2015caption",
+            "file_field_name": "imageafter2015caption",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "fa9e551a-b100-11e9-b84d-0242ac120006",
+            "arches_node_name": "imageafter2015description",
+            "file_field_name": "imageafter2015description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2ab25f4a-9323-11e9-8381-0242ac120006",
+            "arches_node_name": "imagebefore2015caption",
+            "file_field_name": "imagebefore2015caption",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "e02c2194-b100-11e9-87e2-0242ac120006",
+            "arches_node_name": "imagebefore2015description",
+            "file_field_name": "imagebefore2015description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0266d5bc-9ee9-11e9-98a0-0242ac120006",
+            "arches_node_name": "mapsanddrawingfile",
+            "file_field_name": "mapsanddrawingfile",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0266d2a6-9ee9-11e9-98a0-0242ac120006",
+            "arches_node_name": "mapsanddrawingscaption",
+            "file_field_name": "mapsanddrawingscaption",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "5dd07ad4-b0ff-11e9-bca2-0242ac120006",
+            "arches_node_name": "mapsanddrawingsdescription",
+            "file_field_name": "mapsanddrawingsdescription",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0266d44a-9ee9-11e9-98a0-0242ac120006",
+            "arches_node_name": "mapsanddrawingtype",
+            "file_field_name": "mapsanddrawingtype",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "30409648-9323-11e9-abc0-0242ac120006",
+            "arches_node_name": "monument assessment ",
+            "file_field_name": "monument assessment ",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "30409954-9323-11e9-abc0-0242ac120006",
+            "arches_node_name": "monument identified threats",
+            "file_field_name": "monument identified threats",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f2875c-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "monument length",
+            "file_field_name": "monument length",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2cc338c2-9323-11e9-a3b4-0242ac120006",
+            "arches_node_name": "monument main diety",
+            "file_field_name": "monument main diety",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "304097e2-9323-11e9-abc0-0242ac120006",
+            "arches_node_name": "monument other threats",
+            "file_field_name": "monument other threats",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2cc335fc-9323-11e9-a3b4-0242ac120006",
+            "arches_node_name": "monument type others",
+            "file_field_name": "monument type others",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2cc33764-9323-11e9-a3b4-0242ac120006",
+            "arches_node_name": "monument type religion",
+            "file_field_name": "monument type religion",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "1fdfd3e4-b42b-11e9-8570-0242ac140006",
+            "arches_node_name": "monument type religion others",
+            "file_field_name": "monument type religion others",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f26e52-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "number of bays front",
+            "file_field_name": "number of bays front",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f27992-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "number of doors",
+            "file_field_name": "number of doors",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32f264fc-9eea-11e9-8cbd-0242ac120006",
+            "arches_node_name": "number of wood carved windows",
+            "file_field_name": "number of wood carved windows",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4b84b812-9eea-11e9-8b93-0242ac120006",
+            "arches_node_name": "object date(BCE/CE)",
+            "file_field_name": "object date(BCE/CE)",
+            "data_type": "edtf",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4b84b31c-9eea-11e9-8b93-0242ac120006",
+            "arches_node_name": "object date(VS/NS)",
+            "file_field_name": "object date(VS/NS)",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4b84b97a-9eea-11e9-8b93-0242ac120006",
+            "arches_node_name": "object material",
+            "file_field_name": "object material",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4b84b1be-9eea-11e9-8b93-0242ac120006",
+            "arches_node_name": "object relative position",
+            "file_field_name": "object relative position",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4b84b47a-9eea-11e9-8b93-0242ac120006",
+            "arches_node_name": "object short description",
+            "file_field_name": "object short description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4b84c3fc-9eea-11e9-8b93-0242ac120006",
+            "arches_node_name": "object type",
+            "file_field_name": "object type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "70d71f6e-b8f9-11e9-8c36-0242ac120007",
+            "arches_node_name": "objectimage",
+            "file_field_name": "objectimage",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "5b384156-b8f9-11e9-a5f7-0242ac120007",
+            "arches_node_name": "objectimagecaption",
+            "file_field_name": "objectimagecaption",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4a7e2146-b8f9-11e9-8ef3-0242ac120007",
+            "arches_node_name": "objectimagedescription",
+            "file_field_name": "objectimagedescription",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4b84c28a-9eea-11e9-8b93-0242ac120006",
+            "arches_node_name": "other object type",
+            "file_field_name": "other object type",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2ed5777e-9323-11e9-bee1-0242ac120006",
+            "arches_node_name": "primaryimagecaption",
+            "file_field_name": "primaryimagecaption",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "26ac8fa4-af81-11e9-a3d8-0242ac120005",
+            "arches_node_name": "primaryimagedescription",
+            "file_field_name": "primaryimagedescription",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2ed57918-9323-11e9-bee1-0242ac120006",
+            "arches_node_name": "primaryimagefile",
+            "file_field_name": "primaryimagefile",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "fb0a591e-b8f7-11e9-b8a9-0242ac120007",
+            "arches_node_name": "social activities reference types",
+            "file_field_name": "social activities reference types",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "fb0a5a86-b8f7-11e9-b8a9-0242ac120007",
+            "arches_node_name": "social activities references",
+            "file_field_name": "social activities references",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "fb0a5644-b8f7-11e9-b8a9-0242ac120007",
+            "arches_node_name": "social activity description",
+            "file_field_name": "social activity description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "fb0a5bf8-b8f7-11e9-b8a9-0242ac120007",
+            "arches_node_name": "social activity image",
+            "file_field_name": "social activity image",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "fb0a57b6-b8f7-11e9-b8a9-0242ac120007",
+            "arches_node_name": "social activity name",
+            "file_field_name": "social activity name",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "fb0a3ef2-b8f7-11e9-b8a9-0242ac120007",
+            "arches_node_name": "social activity type",
+            "file_field_name": "social activity type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "fb0a532e-b8f7-11e9-b8a9-0242ac120007",
+            "arches_node_name": "social image caption",
+            "file_field_name": "social image caption",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "fb0a54d2-b8f7-11e9-b8a9-0242ac120007",
+            "arches_node_name": "social image description",
+            "file_field_name": "social image description",
+            "data_type": "string",
+            "export": true
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+version: '3.9'
+services:
+
+    arches:
+      container_name: arches
+      image: asisgtm/arches:52-0
+      build:
+        context: .
+        dockerfile: ./Dockerfile
+      command: setup_arches run_arches
+      volumes:
+        - arches-log:/arches/arches/logs
+        - arches-static:/static_root
+        - ./docker:/web_root/docker
+        - ./danam:/web_root/danam
+        - ./docker/entrypoint.sh:/web_root/entrypoint.sh
+
+      environment:
+        - ARCHES_PROJECT=danam
+        - PGUSERNAME=postgres
+        - PGPASSWORD=postgres
+        - PGDBNAME=arches
+        - PGHOST=db
+        - PGPORT=5432
+        - COUCHDB_HOST=couchdb
+        - COUCHDB_PORT=5984
+        - COUCHDB_USER=admin
+        - COUCHDB_PASS=password
+        - RABBITMQ_USER=guest
+        - RABBITMQ_PASS=guest
+        - RABBITMQ_HOST=rabbitmq
+        - RABBITMQ_PORT=5672
+        - ESHOST=elasticsearch
+        - ESPORT=9200
+        - DJANGO_MODE=DEV
+        - DJANGO_DEBUG=True
+        - GUNICORN_WORKER_TIMEOUT=28800
+        - ELASTICSEARCH_PREFIX=danam
+        - DOMAIN_NAMES= localhost
+        - PYTHONUNBUFFERED=0
+        - TZ=PST
+        - JSON_DUMP=False
+        - JSON_DUMP_TIME=2d
+        - RESOURCE_MODEL_UUID=f35cc1ca-9322-11e9-a5cc-0242ac120006      
+        
+      ports:
+        - '127.0.0.1:8000:8000'
+      depends_on:
+        - db
+        - elasticsearch
+
+    db:
+      container_name: db
+      image: kartoza/postgis:13-3.1
+      volumes:
+        - postgres-data:/var/lib/postgresql
+        - postgres-log:/var/log/postgresql
+        - ./docker/init-unix.sql:/docker-entrypoint-initdb.d/init.sql
+      ports:
+        - '127.0.0.1:5432:5432'
+
+      environment:
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASS=postgres
+        - POSTGRES_DB=postgres
+        - POSTGRES_MULTIPLE_EXTENSIONS=postgis,postgis_topology
+        - TZ=PST
+
+    elasticsearch:
+      container_name: elasticsearch
+      image: elasticsearch:7.14.0
+      volumes:
+        - elasticsearch-data:/usr/share/elasticsearch/data
+      ports:
+        - "127.0.0.1:9200:9200"
+        - "127.0.0.1:9300:9300"
+      environment:
+        - TZ=PST
+        - discovery.type=single-node
+        - discovery.seed_hosts=
+
+volumes:
+  arches-log:
+  arches-static:
+  postgres-data:
+  postgres-log:
+  elasticsearch-data:

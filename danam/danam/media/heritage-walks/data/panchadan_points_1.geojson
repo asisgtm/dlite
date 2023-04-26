@@ -1,0 +1,94 @@
+var points1 = {
+"type": "FeatureCollection",
+"name": "panchadan_points1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "name": "Oku Bāhāḥ (1114 CE) || ओकु बाहा", "lal_nr": "LAL2260", "descript": "The Oku Bāhāḥ (Śivadevasaṃskārita Rudravarṇa Mahāvihāra) is one of the oldest and most well-preserved bāhāḥs of Patan.", "link": "https:\/\/danam.cats.uni-heidelberg.de\/report\/1a7f3f24-ec12-11e9-8bc4-0242ac130002", "img":[
+  ['images/panchadan/LAL2260_P_20190416_02.jpg','Oku Bāhāḥ, esoteric building and courtyard, view from N','photo by Nashib Kafle; 2019-04-16'],
+  ['images/panchadan/procession/_MG_5241.jpg','On the day of the jātrā, the ten most senior members (thakāli āju) of the monastery arrive in their special attire. The eighth senior-most member, a Śākya aged 75, attends with his pūjā offerings ( MG 5241). The lay-devotees, mainly Śākya men and women, continue their visits for pūjā and present their small offerings to the deity. The offerings are made up of 1. flower garland, 2. fruits (banana, sweet lemon), 3. wick lamp, 4. incense, 5. an earthen pot full with rice grains, a betel nut and a coin (kisli), 6. Coin/s, 7. loose flowers. 8. sweets (gvalmari), 9. beaten rice, 10. husked rice grains 11. unhusked rice, 12. puffed rice (tāy), 13. rice pudding, and 14. a small metal or earthen ritual pot filled with grains used for begging by the Buddhist monks (gulpā) (MG 5245).', 'Photo by Bijay Basukala (July 2020)'],['images/panchadan/procession/_MG_5248.jpg','The shopping list of offering materials of the main thakāli of pāḥlāḥ, From East.','Photo by Bijay Basukala (July 2020)'],
+  ['images/panchadan/procession/_MG_5249.jpg','The handwritten list with materials to be offered to the deity by the eldest in the community of this place. This list contains 1. Three and a half metres of white cloth, 2. three bowls of curd, 3. red ṭikā powder, 4. yellow ṭikā powder, 5. grey ṭikā powder, 6. enough flowers for two pūjā plates, 7. one eighteen inches long flower garland, 8. four stems of white jasmine (dvāpho svāṃ), 9. incense sticks, 10. two betel nuts, 11. banana and a particular kind of citrus fruit (khāisi), 12. bel-fruit (myrobalan), 13. cucumber or radish, 14. mixed fruits and vegetables such as radish, soaked green peas, carrot, orange or soaked green peas 15. local sweets such as barfi, pyārā, jeri, 16. a bowl of yellow mustard seeds (īkā), 17. a bowl of yellow mustard (paḥkā), 18. puffed rice (tāy), 19. red mud (to besmear).','Photo by Bijay Basukala (July 2020)'],
+  ['images/panchadan/procession/_MG_5250.jpg','Three pūjā plates: one comes from members of the guthi (guṭhiyārs) from this year, another set of offerings on a metal plate comes from the next year’s members and a third one placed on the basket (dhakiṃ) is meant for the welcome (lasakusa) pūjā when all are taken into the sanctum. Two guṭhi members from the Śākya community from Ukubāhā watch over the materials. View from Southwest','Photo by Bijay Basukala (July 2020)'],
+  ['images/panchadan/procession/_MG_5254.jpg','Puṣpa Ratna Śākya putting the icon in the basket to start the jātrā. View from West','Photo by Bijay Basukala (July 2020)'],
+  ['images/panchadan/procession/_MG_5255.jpg','Bvagī group of Karuṇāmaya from Ukubahā. They visit the chariot of the Bungdyaḥ in the morning for as long as the deity resides there. View from North ','Photo by Bijay Basukala (July 2020)'],
+  ['images/panchadan/procession/_MG_5270.jpg','The senior-most member of the guthi (thapāḥāju) from Ukubahā, a Sākya aged around 95, arrives for the jātrā. View from South','Photo by Bijay Basukala (July 2020)'],
+  ['images/panchadan/procession/_MG_5283.jpg','The jātrā sets off to the first round. View from North','Photo by Bijay Basukala (July 2020)'],
+  ['images/panchadan/procession/_MG_5286.jpg','Start of the jātrā from Ukubaha. View from North','Photo by Bijay Basukala (July 2020)'],
+  ]},"geometry": { "type": "Point", "coordinates": [ 85.327263965545711, 27.668275151902765 ]}},
+
+
+{ "type": "Feature", "properties": { "id": 2, "name": "Mahābuddha Mandira (1601 CE) || महाबुद्ध मन्दिर", "lal_nr": "LAL2340", "descript": "The Mahābuddha Mandira is one of the most famous Buddhist śikhara styled temples in Patan", "link": "https:\/\/danam.cats.uni-heidelberg.de\/report\/9d5039d0-e979-11e9-8bc4-0242ac130002", "img": [
+  ['images/panchadan/LAL2340_P_20190419_25.jpg','View on the location']
+  ]}, "geometry": { "type": "Point", "coordinates": [ 85.32710418782149, 27.669095020528879 ] } },
+
+
+{ "type": "Feature", "properties": { "id": 3, "name": "Lũ Hiti (Sundhārā) || लुँ हिति", "lal_nr": "LAL1860", "descript": "This is one of the oldest Hitis in the Kathmandu Valley. It dates back to early Licchavi period.", "link": "https:\/\/danam.cats.uni-heidelberg.de\/report\/468fb683-8654-424a-9005-731f310bed0f", "img": [
+  ['images/panchadan/LAL1860_P_20200819_01.jpg','Lũ Hiti, view from East','Photo by Rishi Amatya; 2020-08-19'],
+  ['images/panchadan/procession/_MG_5294.jpg','The procession in Sundharā, Luṃhiṭi. View from East','Photo by Bijay Basukala (July 2020)']
+  ]}, "geometry": { "type": "Point", "coordinates": [ 85.328067873362315, 27.6697051254841 ] } },
+
+{ "type": "Feature", "properties": { "id": 4, "name": "Tana Bāhāḥ || तन बाहाः", "lal_nr": "LAL1900", "descript": "This is a branch of Oku Bahāḥ and was rebuilt in 1948 by Harṣa Bahādura Śākya and is inhabited by the Therāvādī Buddhist nuns.", "link": "https:\/\/danam.cats.uni-heidelberg.de\/report\/d7c4e686-d20c-4141-9a25-dfc5d3ccab45", "img": [
+  ['images/panchadan/LAL1900_P_20200819_08.jpg','View on the location']
+  ]}, "geometry": { "type": "Point", "coordinates": [ 85.329123159221339, 27.669871820234544 ]}},
+
+{ "type": "Feature", "properties": { "id": 5, "name": "Lāchi Phalcā (late 17th cent. CE) || लाछि फल्चा", "lal_nr": "LAL4014", "descript": "This five-bay Phalcā remains an important site for Nāmasaṅgīti recitations.", "link": "https:\/\/danam.cats.uni-heidelberg.de\/report\/33776afc-ea72-11e9-b125-0242ac130002", "img": [
+  ['images/panchadan/LAL4014_P_20170302_01_osENQlo.jpg','Lāchi Phalcā, view from SW','photo by Christiane Brosius; 2017-03-02'],
+  ['images/panchadan/procession/_MG_5299.jpg','The procession in Pincheṃ. From East','Photo by Bijay Basukala (July 2020)']
+  ]}, "geometry": { "type": "Point", "coordinates": [ 85.329487050896944, 27.67050970313122 ] } },
+
+{ "type": "Feature", "properties": { "id": 6, "name": "Nāmasaṅgīti Phalcā (early 18th cent. CE) || नामसङ्गीति फल्चा", "lal_nr": "LAL4006", "descript": "The Nāmasaṅgīti Phalcā was established in the early 18th century and contains statues of two deities. It has three bays.", "link": "https:\/\/danam.cats.uni-heidelberg.de\/report\/e499ec9a-e66e-11e9-8bc4-0242ac130002", "img": [
+  ['images/panchadan/LAL4006_P_20190226_01.jpg','    Nāmasaṅgīti Phalcā at Pinchẽ, view from SE','photo by Bijay Basukala 2019-02-26'],
+  ['images/panchadan/procession/_MG_5294.jpg','The procession in Sundharā, Luṃhiṭi. View from East','Photo by Bijay Basukala (July 2020)']
+  ]}, "geometry": { "type": "Point", "coordinates": [ 85.331403756188067, 27.670335230304701 ] } },
+
+{ "type": "Feature", "properties": { "id": 7, "name": "Guitaḥ Caitya 2 || गुइत: चैत्य २", "lal_nr": "LAL2020", "descript": "Guitaḥ Caitya 2 is connected to Cīdhã Bahī. It houses a Vairocana that dates back to around the 6th century. Surprisingly, Akṣobhya is placed west here rather than north.", "link": "https:\/\/danam.cats.uni-heidelberg.de\/report\/f1f7e39a-cb04-11e9-b993-0242ac140002", "img": [
+  ['images/panchadan/LAL2020_P_20190613_01.jpg','Guitaḥ Caitya 2, view from W (June 2019)','NHDP'],
+  ['images/panchadan/procession/_MG_5304.jpg','The leading Sākya member of the Guitanakiṃ Pañcadāna Guṭhi, made up of 42 members, waits to welcome the arriving procession. Upon arrival of the procession, rice pudding is offered on four leaves (one each for Dipaṅkara Buddha, Buddha, Dharma and Sangha). The Śākya and his wife worship the deity and greet the other Śākya guṭhiyārs of the procession (with two pūjā plates, one from the guṭhi and another from the residential home). The pūjā plate of the guṭhi contains biscuits, flowers, a bowl of flour, husked rice grains, soaked peas, beaten rice, a kisli and money. Mr. Śākya offers 25 hands full of unhusked rice grains and a coin to the deity and the Śākya guṭhiyārs. A Śākya guṭhiyār recites the dānavākya "Dānavali". View from West','Photo by Bijay Basukala (July 2020)'],
+  ['images/panchadan/procession/_MG_5305.jpg','Rājeśa Śākya, 45, of Guitanakiṃ Pañcadāna Guṭhi offering pañcadāna. From South','Photo by Bijay Basukala (July 2020)'],
+  ['images/panchadan/procession/_MG_5308.jpg','The offerings of rice pudding, beaten rice, a piece of cucumber, unhusk rice grains, soaked peas, soaked horse gram, and a coin on the bigger leaf is for Dīpṅakara, and the smaller ones are for the Budhha, Dharma and Sangha. ','Photo by Bijay Basukala (July 2020)'],
+  ['images/panchadan/procession/_MG_5310.jpg','The inscription on the jasi mentions the names of the past guṭhiyars, Gyā[na]si[ṃha]devaju, Gu[ṇa]devaju, Pa[ṇ]dukesa, Nugurāma. It mentions that whosoever steals the pot, s/he shall get five kinds of great sins. From West. ','Photo by Bijay Basukala (July 2020)'],
+  ['images/panchadan/procession/_MG_5314.jpg','Guita Caitya and Phudyaḥ, From West','Photo by Bijay Basukala (July 2020)']
+  ]}, "geometry": { "type": "Point", "coordinates": [ 85.332522409390705, 27.671383174367087 ] } },
+
+{ "type": "Feature", "properties": { "id": 8, "name": "Cīdhã Bahī (Licchavi period?) || चीधँ बही", "lal_nr": "LAL1970", "descript": "Cīdhã Bahī is also known as Vasūccaśīla Mahāvihāra and is located at the northern end of the old Guitaḥ area. It is assumed to date back to the Licchavi period.", "link": "https:\/\/danam.cats.uni-heidelberg.de\/report\/460bec90-ea60-11e9-b125-0242ac130002", "img": [
+  ['images/panchadan/LAL1970_P_20190613_01.jpg','Cīdhã Bahī, Guitaḥ, main building, view from E (June 2019)','NHDP'],
+  ['images/panchadan/procession/_MG_5318.jpg',"The icon of the monastery's Dīpaṅkara at Guitabahi",'Photo by Bijay Basukala (July 2020)'],
+  ['images/panchadan/procession/_MG_5320.jpg','Bābukāji Śākya worships the deity inside of Guitabahi. Inside Guita Bahi, the senior-most guṭhi member (thapāḥāju), Mr. S. Śākya (aged 84), and B. Śākya (aged 50), both from the Guitabahi Sarvasaṃgha Pañcadāna Guṭhi, sprinkle water on the deity and wash the hands of the Śākya guṭhiyārs of the procession. Another person offers red ṭikā and the sacred thread (jajañkā), others offer flowers, money, chocolate, husked rice grains, salt, hajmola candy, or salt. View from West','Photo by Bijay Basukala (July 2020)'],
+  ['images/panchadan/procession/_MG_5323.jpg','Offering dānā in Guitabahi, View from East','Photo by Bijay Basukala (July 2020)']
+  ]}, "geometry": { "type": "Point", "coordinates": [ 85.332252627631277, 27.671524307104907 ] } },
+
+{ "type": "Feature", "properties": { "id": 9, "name": "Bhinchẽ Bāhāḥ (ca. 1430 CE) || भिन्छेँ बाहा:", "lal_nr": "LAL2060", "descript": "The earliest reference to Bhinchẽ Bāhāḥ or Mayūravarṇa Mahāvihāra is found in a palm-leaf manuscript dated NS 550 (CE 1430)", "link": "https:\/\/danam.cats.uni-heidelberg.de\/report\/711b19a4-ec10-11e9-b125-0242ac130002", "img": [
+  ['images/panchadan/LAL2060_P_20190614_01.jpg','Bhinchẽ Bāhāḥ, esoteric shrine, view from W (June 2019)','NHDP'],
+  ['images/panchadan/procession/_MG_5337.jpg','A person discards the remains of the death ritual (śrāddha) materials on the maṇḍala from Bhinchebahā. View from South','Photo by Bijay Basukala (July 2020)']
+  ]}, "geometry": { "type": "Point", "coordinates": [ 85.330747009511271, 27.669981308764434 ] } },
+
+{ "type": "Feature", "properties": { "id": 10, "name": "Pinchẽ Bāhāḥ (1669 CE) || पिन्छेँ बाहाः", "lal_nr": "LAL2050", "descript": "This Bāhāḥ was established by Jñānacandra Vajrācārya of Bhinchẽ Bāhāla in NS 789 (1669).", "link": "https:\/\/danam.cats.uni-heidelberg.de\/report\/38e62b02-e759-11e9-8bc4-0242ac130002", "img": [
+  ['images/panchadan/LAL2050_P_20190604_01.jpg','Pinchẽ Bāhāḥ, courtyard and the god-house, view from SE (June 2019)','NHDP'],
+  ['images/panchadan/procession/_MG_5339.jpg','The icon of the Dīpaṅkara Buddha of the monastery is displayed at Pinchebahā (Jñānacandra Mahāvihāra). The local Bahācā Pancadāna Guṭhi is anaged by Mr D. Vajrācārya (aged 54) and includes ten households. The guṭhi member offers a gulpā and the amount of 25 hands filled with husked rice grains to the deity. Brown sugar juice (sākhaḥti) is also served. At this stop, the carrier of the icon is exchanged and S. Moktān takes over. View from East','Photo by Bijay Basukala (July 2020)']
+  ]}, "geometry": { "type": "Point", "coordinates": [ 85.330840398670858, 27.670491821123992 ] } },
+
+{ "type": "Feature", "properties": { "id": 11, "name": "Dupāt Capāḥ (1670 CE) || दुपाः चपाः", "lal_nr": "LAL4076", "descript": "Dupāt Capāḥ used to have one of the longest phalcās in Lalitpur. It is still used for festive occasions, though it has undergone major transformations since the 1990s.", "link": "https:\/\/danam.cats.uni-heidelberg.de\/report\/06a4360c-e5ec-11e9-b125-0242ac130002", "img": [
+  ['images/panchadan/LAL4076_P_20150718_08.jpg','Dupāt Capāḥ building, view from SE','Photo by Rajendra Shakya; 2015-07-18'],
+  ['images/panchadan/procession/_MG_5353.jpg','The Phudyaḥ jātrā procession halts at Dupāt capāḥ where Mr Maharjan, a member of Māṃ guṭhi that consists of three households, offers the equivalent of 25 hands full of husked rice grains to the deity. View from West','Photo by Bijay Basukala (July 2020)']
+  ]}, "geometry": { "type": "Point", "coordinates": [ 85.330157691710923, 27.669690401213419 ] } },
+
+{ "type": "Feature", "properties": { "id": 12, "name": "Siddhilakṣmī Mandira (built before 1652 CE) || सिद्धिलक्ष्मी मन्दिर", "lal_nr": "LAL2120", "descript": "This temple located in Bhāginani Ṭola must have been built before NS 772 (1652 CE).", "link": "https:\/\/danam.cats.uni-heidelberg.de\/report\/97f7c7ff-da96-44f3-9841-9e708675d5b4", "img": [
+  ['images/panchadan/LAL2120_P_20200902_01.jpg','Siddhilakṣmī Mandira, view from W','Photo by Yogesh Budathoki; 2020-09-02'],
+  ['images/panchadan/procession/_MG_5354.jpg','At Bhangili, the procession goes beside Siddhi Lakṣmī Temple. View from South West','Photo by Bijay Basukala (July 2020)']
+  ]}, "geometry": { "type": "Point", "coordinates": [ 85.329999896234355, 27.668940312484537 ] } },
+
+{ "type": "Feature", "properties": { "id": 13, "name": "Yachu Bāhāḥ (ca. 1630 CE) || यछु बाहाः", "lal_nr": "LAL1810", "descript": "Yachu Bāhāḥ is one of the major bāhāḥs of Patan. However, the area it covers is somewhat smaller in size in comparison to other such bāhās.", "link": "https:\/\/danam.cats.uni-heidelberg.de\/report\/97c8d066-f0e6-11e9-a3c8-0242ac130002", "img": [
+  ['images/panchadan/LAL1810_P_20180608_42.JPG','Yachu Bāhāḥ, view of āgãchẽ from NE','Photo by Bruce Owens; 2018-06-08; courtesy of Bruce Owens; free access – no reuse'],
+  ['images/panchadan/procession/_MG_5363.jpg','At Yachhubahā, members of the 100 households strong Yacchubahā Saṃgha Guṭhi of Śākyas offer only a pūjā and money, much less than in previous years, because of restrictions due to the COVID-19 Pandemic. View from West','Photo by Bijay Basukala (July 2020)']
+  ]}, "geometry": { "type": "Point", "coordinates": [ 85.328663465157021, 27.67015528251801 ] } },
+
+{ "type": "Feature", "properties": { "id": 14, "name": "Ubāhāḥ Bahī (before 1391 CE) || उबाहा: बही", "lal_nr": "LAL2280", "descript": "This monastic building is a branch of Oku Bāhāḥ. There is a Licchavi Caitya in its courtyard.", "link": "https:\/\/danam.cats.uni-heidelberg.de\/report\/09670bee-ec13-11e9-b125-0242ac130002", "img": [
+  ['images/panchadan/LAL2280_P_20190215_01_UYcGfHP.jpg','Ubāhāḥ Bahī, view from W','Photo by Nashib Kafle; 2019-02-15'],
+  ['images/panchadan/procession/_MG_5381.jpg','Inscription on Jasi, from Ubābahi, tells us that the old copper pot was replaced in 1765.','Photo by Bijay Basukala (July 2020)']
+  ]}, "geometry": { "type": "Point", "coordinates": [ 85.327858386194862, 27.668367047285201 ] } },
+
+  { "type": "Feature", "properties": { "id": 15, "name": "Oku Bāhāḥ (1114 CE) || ओकु बाहा", "lal_nr": "LAL2260", "descript": "The Oku Bāhāḥ (Śivadevasaṃskārita Rudravarṇa Mahāvihāra) is one of the oldest and most well-preserved bāhāḥs of Patan.", "link": "https:\/\/danam.cats.uni-heidelberg.de\/report\/1a7f3f24-ec12-11e9-8bc4-0242ac130002", "img":[
+    ['images/panchadan/LAL2260_P_20190416_02.jpg','Oku Bāhāḥ, esoteric building and courtyard, view from N','photo by Nashib Kafle; 2019-04-16'],
+    ['images/panchadan/procession/_MG_5402.jpg','A meal is taken after the first round of the procession has been completed, outside of Mahābauddha vihar. The deity is taken back to Ukubahā at 12:30 and kept outside in a phaḥ (MG 5399). About 21 children and a few adult devotees pay respect to the deity then. The participating guṭhiyār and icon bearers go inside Ukubahā and have their lunch of a plate of rice pudding, vegetable, cucumber acār, soybean acār. At the same time, the 10 senior-most male members of the vihar and other Śākya officials, such as the Dyaḥpālā (caretaker of the deity), the Bhaliṃāju (accountant), the mū bisaḥ (main caretaker of the vihar property), the kacā bisaḥ (assistant caretaker of the property of the monastery), the dhārmika saṃyojaka (religious affairs coordinator), the dhārmika kārya sahāyaka (assistant for religious affairs), the dhārmika kārya sahāyaka (assistant for religious affairs) and the kāryālaya saciva (office secretary) receive pañcadāna in the Ukubahā monastery.','Photo by Bijay Basukala (July 2020)'],
+    ]},"geometry": { "type": "Point", "coordinates": [ 85.327263965545712, 27.668275151902766 ]}},
+
+]}

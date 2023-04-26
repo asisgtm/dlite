@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1585573251331" name="duplicate:http://www.w3.org/2002/07/owl" uri="danam_glossary.skos.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1585573251331" name="duplicate:http://www.w3.org/2002/07/owl" uri="danam_glossary18032020.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1585573251331" name="duplicate:http://www.w3.org/2002/07/owl" uri="danam_glossary2.skos.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1585573251331" name="duplicate:http://www.w3.org/2002/07/owl" uri="danam_glossary30032020.owl"/>
+    </group>
+</catalog>

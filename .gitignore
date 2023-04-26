@@ -1,0 +1,8 @@
+archesrepo_files
+docker-geoserver
+Monument_2021*.json
+letsencrypt
+*.pyc
+danam/sql_dump
+danam/backup
+danam/*.json

@@ -1,0 +1,10 @@
+*.pyc
+*.log
+danam/logs
+danam/export_deliverables
+danam/cantaloupe/*
+danam/media/packages
+danam/uploadedfiles/*
+danam/settings_local.py
+.vscode/
+CACHE

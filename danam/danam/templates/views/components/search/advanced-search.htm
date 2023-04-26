@@ -1,0 +1,603 @@
+{% load i18n %}
+{% load staticfiles %}
+
+<!--ko let: { self: $data }-->
+<div class="search-container advanced-search-container relative">
+
+    <!-- Advanced Search Panel -->
+    <div class="facets-container" style="">
+        <div class="list-group search-facets">
+            <div class="search-facet-item header">
+                <h4 class="search-facet-item-heading">{% trans "Search Facets" %}</h4>
+                <div class="list-filter relative">
+                    <input type="text" class="form-control" style="" placeholder="{% trans "Find ..." %}" data-bind="value: facetFilterText, valueUpdate: 'keyup'">
+                    <!-- Clear Filter -->
+                    <span class="clear-node-search" data-bind="click: function () { facetFilterText(''); }"><i class="fa fa-times-circle"></i></span>
+                </div>
+            </div>
+            <!-- ko foreach: searchableGraphs -->
+                <!-- ko if: cards().length > 0  -->
+                <div class="search-facet-item disabled">
+                    <h4 class="search-facet-item-heading">
+                        <strong data-bind="text: name"></strong>
+                        <span><i class="fa report-expander print-hide" data-bind="css: {'fa-angle-down': !collapsed(), 'fa-angle-right': collapsed()}, click: function () { collapsed(!collapsed()) }"></i></span>
+                    </h4>
+                </div>
+                <div data-bind="visible: !collapsed()">
+                    <!-- ko foreach: cards -->
+                    <a href="#" class="search-facet-item" data-bind="click: addFacet">
+                        <h4 class="search-facet-item-heading" data-bind="text: name"></h4>
+                        <p class="list-group-item-text"></p>
+                    </a>
+                    <!-- /ko -->
+                </div>
+                <!-- /ko -->
+            <!-- /ko -->
+        </div>
+    </div>
+
+    <div class="facets-search-container" style="">
+
+        <div data-bind="visible: filter.facets().length === 0">
+            <div id="rr-splash" class="rr-splash">
+                <!-- Image -->
+                <div class="img-lg img-circle rr-splash-img-container">
+                    <img class="rr-splash-img" src="{% static 'img/inspection.png' %}" alt="Advanced Search">
+                </div>
+
+                <!-- Splash Title -->
+                <div class="rr-splash-title">{% trans "Advanced Search" %}</div>
+
+                <!-- Splash Instructions -->
+                <div class="rr-splash-description">{% trans "With Advanced Search you can build more sophisticated search queries." %}</div>
+                <div class="rr-splash-description">{% trans "The followings are the monument resource model fields which can be used to filter out information in an advanced search." %}</div>
+                <div class="rr-splash-description">{% trans "Note that the categories listed in the right hand side are not in a chronological order. Thus, we recommend the database visitors to manually search these categories." %}</div>
+                
+                
+                <table class="table table-hover" style="text-align: left;">
+                    <tr>
+                        <thead>
+                            <th>
+                                Name
+                            </th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Monument Name
+                                </td>
+                                <td>
+                                    Alternative name(s)
+                                </td>
+                                <td>
+                                    Anglicized name
+                                </td>
+                                <td>
+                                    Name in Devanagari
+                                </td>
+                            </tr>
+                        </tbody>
+                        <!-- end of name section -->
+                        <thead>
+                            <tr>
+                                <th>
+                                    Typology
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Monument type
+                                </td>
+                                <td>
+                                    Main deity in the sanctum
+                                </td>
+                                <td>
+                                    Religion
+                                </td>
+                            </tr>
+                        </tbody>
+                        <!-- end to Typology section  -->
+                        <thead>
+                            <tr>
+                                <th>
+                                    LOCATIONS
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Province number
+                                </td>
+                                <td>
+                                    District
+                                </td>
+                                <td>
+                                    Municipality / Village Council
+                                </td>
+                                <td>
+                                    Heritage focus area
+                                </td>
+                                <td>
+                                    City quarter (Ṭola)
+                                </td>
+                            </tr>
+                        </tbody>
+                        <!-- end of location section  -->
+                        <thead>
+                            <tr>
+                                <th>
+                                    DESCRIPTIONS
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Short description
+                                </td>
+                                <td>
+                                    Description
+                                </td>
+                                <td>
+                                    Summary in Nepali
+                                </td>
+                            </tr>
+                        </tbody>
+                        <!-- end of description section  -->
+                        <thead>
+                            <tr>
+                                <th>
+                                    MONUMENT's OBJECTS
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Object basic data
+                                </td>
+                                <td>
+                                    Additional images
+                                </td>
+                            </tr>
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Object typology
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>
+                                    Object type
+                                </td>
+                                <td>
+                                    Object material
+
+                                </td>
+                                <td>
+                                    Object place
+                                </td>
+                                <td>
+                                    Date (BCE/CE)
+                                </td>
+                                <td>
+                                    Date (VS/NS)
+                                </td>
+                            </tr>
+                            <tr>
+                                <thead>
+                                    <th>
+                                        Object measurement
+                                    </th>
+                                </thead>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Width
+                                </td>
+                                <td>
+                                    Depth
+
+                                </td>
+                                <td>
+                                    Height
+                                </td>
+                                <td>
+                                    Circumference
+                                </td>
+                            </tr>
+                        </tbody>
+                        <!-- end of the Monument object section  -->
+                        <!-- end of maps, plans and drawing section  -->
+                        <thead>
+                            <th>
+                                ARCHITECTURAL DETAILS
+                            </th>
+                        </thead>
+                        <tbody>
+                            <thead>
+                                <th>
+                                    Basic Architectural Data
+                                </th>
+                            </thead>
+                            <tr>
+                                <td>
+                                    Monument length
+                                </td>
+                                <td>
+                                    Monument depth
+                                </td>
+                                <td>
+                                    Monument height
+                                </td>
+                                <td>
+                                    Monument diameter
+                                </td>
+                                <td>
+                                    Monument shape
+                                </td>
+                            </tr>
+                            <thead>
+                                <th>
+                                    Roofs
+                                </th>
+                            </thead>
+                            <tr>
+                                <td>
+                                    Number of Roofs
+                                </td>
+                                <td>
+                                    Type of roof
+                                </td>
+                                <td>
+                                    Roofing
+                                </td>
+                                <td>
+                                    Number of struts
+                                </td>
+                            </tr>
+                            <thead>
+                                <th>
+                                    Walls & Bricks
+                                </th>
+                            </thead>
+                            <tr>
+                                <td>
+                                    Thickness of main wall
+                                </td>
+                                <td>
+                                    Type of bricks
+                                </td>
+                            </tr>
+                            <thead>
+                                <th>
+                                    Column and measurements
+                                </th>
+                            </thead>
+                            <tr>
+                                <td>
+                                    Forms of columns
+                                </td>
+                                <td>
+                                    Column width
+                                </td>
+                                <td>
+                                    Column depth
+                                </td>
+                                <td>
+                                    Column height
+                                </td>
+                                <td>
+                                    Cakulā width
+                                </td>
+                                <td>
+                                    Cakulā depth
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Cakulā height
+                                </td>
+                                <td>
+                                    Capital width
+                                </td>
+                                <td>
+                                    Capital depth
+                                </td>
+                                <td>
+                                    Capital height
+                                </td>
+                                <td>
+                                    Lintel depth
+                                </td>
+                                <td>
+                                    Lintel height
+                                </td>
+                            </tr>
+                            <thead>
+                                <th>
+                                    Windows, doors and bays
+                                </th>
+                            </thead>
+                            <tr>
+                                <td>
+                                    Number of wood-carved windows
+                                </td>
+                                <td>
+                                    Number of doors
+                                </td>
+                                <td>
+                                    Number of bays (front)
+                                </td>
+                                <td>
+                                    Number of bays (sides)
+                                </td>
+                                <td>
+                                    Peculiarities
+                                </td>
+                            </tr>
+                            <thead>
+                                <th>
+                                    Base and plinths
+                                </th>
+                            </thead>
+                            <tr>
+                                <td>
+                                    Number of plinth
+                                </td>
+                                <td>
+                                    Base plinth's width
+                                </td>
+                                <td>
+                                    Base plinth's depth
+                                </td>
+                                <td>
+                                    Base plinth's height
+                                </td>
+                                <td>
+                                    Top plinth's width
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Top plinth's depth
+                                </td>
+                                <td>
+                                    Top plinth's height
+                                </td>
+                                <td>
+                                    Profile at base
+                                </td>
+                                <td>
+                                    Edge at platform
+                                </td>
+                                <td>
+                                    Platform's floor
+                                </td>
+                            </tr>
+                        </tbody>
+                        <!-- End of Architectural details section  -->
+                        <thead>
+                            <tr>
+                                <th>
+                                    DAMAGES AND THREATS
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Monument assessment
+                                </td>
+                                <td>
+                                    Identified threats
+                                </td>
+                                <td>
+                                    Description
+                                </td>
+                            </tr>
+                        </tbody>
+                        <!-- End of DAMAGES and THREATS Section  -->
+                        <thead>
+                            <tr>
+                                <th>
+                                    SOCIAL AND RELIGIOUS ACTIVITIES
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <thead>
+                                    <th>
+                                        Details
+                                    </th>
+                                </thead>
+                                <tr>
+                                    <td>
+                                        Activity
+                                    </td>
+                                    <td>
+                                        Description
+                                    </td>
+                                    <td>
+                                        Reference source
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Social Activities: Images
+                                    </th>
+                                </tr>
+                            </tr>
+                        </tbody>
+                        <!-- End of Social and Religion Activities section  -->
+                        <thead>
+                            <tr>
+                                <th>
+                                    HISTORICAL EVENTS
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <thead>
+                                <th>
+                                    Event details
+                                </th>
+                            </thead>
+                            <tr>
+                                <td>
+                                    Event name
+                                </td>
+                                <td>
+                                    Description
+                                </td>
+                            </tr>
+                            <thead>
+                                <th>
+                                    Event date
+                                </th>
+                            </thead>
+                            <tr>
+                                <td>
+                                    Date (BCE/CE)
+                                </td>
+                                <td>
+                                    Period
+                                </td>
+                                <td>
+                                    Year (ŚS/NS/VS)
+                                </td>
+                                <td>
+                                    Nepali month
+                                </td>
+                                <td>
+                                    Pakṣa
+                                </td>
+                                <td>
+                                    Tithi
+                                </td>
+                                <td>
+                                    Gate
+                                </td>
+                                <td>
+                                    End date
+                                </td>
+                                <td>
+                                    Peculiarities
+                                </td>
+                            </tr>
+                            <thead>
+                                <th>
+                                    Sources and references 
+                                </th>
+                            </thead>
+                            <tr>
+                                <td>
+                                    Inscription identification number
+                                </td>
+                                <td>
+                                    Sources
+                                </td>
+                                <td>
+                                    Details
+                                </td>
+                            </tr>
+                            <thead>
+                                <th>
+                                    Source image(s)
+                                </th>
+                            </thead>
+                            <tr>
+                                <td>
+                                    Image file
+                                </td>
+                                <td>
+                                    Commentary
+                                </td>
+                            </tr>
+                        </tbody>
+                        <!-- End of HISTORICAL Event Section  -->
+                        <thead>
+                            <th>
+                                AUTHORS AND CREATORS
+                            </th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Editorial team
+                                </td>
+                            </tr>
+                        </tbody>
+                        <!-- End of AUTHORS and CREATORS Section  -->
+                        <tr>
+                            <th>
+                                REFERENCES
+                            </th>
+                        </tr>
+                        <!-- End of Reference section  -->
+                        <thead>
+                            <th>
+                                IDENTIFIER
+                            </th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    ID number
+                                </td>
+                            </tr>
+                        </tbody>
+                        <!-- End of IDENTIFIER Section  -->
+                    </tr>
+                </table>
+                <!-- End of table  -->
+            </div>
+            
+        </div>
+
+
+
+        <!-- ko foreach: filter.facets -->
+
+        <!-- ko if: $index  -->
+        <div class="btn-group btn-group-sm facet-btn-group">
+            <button class="btn btn-warning btn-active-dark facet-btn" data-bind="css: {'selected': value.op() === 'and'}, click: function () { value.op('and'); }">{% trans "And" %}</button>
+            <button class="btn btn-warning btn-active-dark facet-btn" data-bind="css: {'selected': value.op() === 'or'}, click: function () { value.op('or'); }">{% trans "Or" %}</button>
+        </div>
+        <!-- /ko -->
+
+        <div class="faceted-search-card-container">
+            <div class="facet-name" data-bind="text: ko.unwrap(card.getGraph().name) + ' - ' + card.name"></div>
+            <div class="row facet-search-criteria">
+                <!-- ko foreach: card.nodes -->
+                <div class="facet-body">
+
+                    <div class="facet-label" data-bind="text: $data.label"></div>
+                    <div data-bind="component: {
+                        name: self.datatypelookup[datatype].configname,
+                        params: {
+                            search: true,
+                            filterValue: $parent.value[nodeid],
+                            node: $data,
+                            datatype: self.datatypelookup[datatype]
+                        }
+                    }">
+                    </div>
+
+                </div>
+                <!-- /ko -->
+
+                <div class="facet-search-button pull-right">
+                    <button class="btn btn-sm btn-primary" data-bind="click: function (facet) { self.filter.facets.remove(facet); }">{% trans "Remove" %}</button>
+                </div>
+            </div>
+        </div>
+        <!-- /ko -->
+    </div>
+</div>
+<!-- /ko -->

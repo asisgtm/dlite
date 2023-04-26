@@ -1,0 +1,70 @@
+var points2 = {
+"type": "FeatureCollection",
+"name": "panchadan_points_2",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "name": "Jyābā Bahī (ca. 1652 CE) || ज्याबा बही", "lal_nr": "LAL2610", "descript": "This old Bahī was heavily damaged by the 2015 earthquake. The saṅgha has been reduced to one Vajrācārya family.", "link": "https://danam.cats.uni-heidelberg.de/report/92ec797a-e91c-11e9-b125-0242ac130002", "img": [
+  ['images/panchadan/LAL2610_P_20181228_03.jpg','Jyābā Bahī, view from NE','Photo by Nashib Kafle; 2018-12-28'],
+  ['images/panchadan/procession/_MG_5419.jpg','Procession in Jyābābahi. View from North','Photo by Bijay Basukala (July 2020)'],
+  ['images/panchadan/procession/_MG_5417.jpg','At Jyābābahi (Cakrabahil), the Vihāra Guṭhi, led by Dhanakāji Vajrācārya of one household offers pūjā, a bowl of black soybean and 25 palmfuls of unhusked rice grains','Photo by Bijay Basukala (July 2020)']
+  ]}, "geometry": { "type": "Point", "coordinates": [ 85.325157346276683, 27.670606614775821 ] } },
+
+{ "type": "Feature", "properties": { "id": 2, "name": "Mūla Coka (1666 CE) || मूल चोक", "lal_nr": "LAL1260", "descript": "Mūla Coka is the most important courtyard of the Patan palace, which is why it is called Mūla Coka (meaning 'the major courtyard'). During the Malla period, royal assemblies and gatherings were held in this courtyard. Copper-plate inscriptions recording various treaties and declarations were attached to the courtyard's walls. Unfortunately, most of these inscriptions were lost in the recent past", "link": "https://danam.cats.uni-heidelberg.de/report/39bb2040-e9fd-11e9-8bc4-0242ac130002", "img": [
+  ['images/panchadan/LAL1260_P_20190623_04.jpg','Mūla Coka, courtyard with Yantāju shrine in the centre and Degu Tale and Taleju Mandira in the background, view from S (June 2019)','NHDP'],
+  ['images/panchadan/procession/_MG_5436.jpg','The small procession moves across Patan Darbar Square, here, seen in front of Mul Chowk, view from North West.','Photo by Bijay Basukala (July 2020)']
+]}, "geometry": { "type": "Point", "coordinates": [ 85.325241049580171, 27.672994336358734 ] } },
+
+{ "type": "Feature", "properties": { "id": 3, "name": "Taṅgaḥ Bāhāḥ (built before 1125 CE) || तङ्ग: बाहा:", "lal_nr": "LAL2780", "descript": "Taṅgaḥ Bāhāḥ is considered to be the oldest of the eighteen main bāhāḥs of Patan. Its classical name suggests that it was founded by the Licchavi king Bālārcana Deva. Taṅgaḥ Bāhāḥ is located to the east of a spout (LAL2760) from the Licchavi period and to the south of Patan Darbar Square. Taṅgaḥ Hiti (LAL2760) is located between the Buṅgadyaḥ (Matsyendranātha) and the Cukāḥdyaḥ (Mīnanātha) temples. The Hiti is associated with Buṅgadyaḥ's chariot procession (rathajātrā). The chariot of Mīnanātha is assembled at the northwest of the Hiti. During this process, the pau, used in making the chariot is drenched in the Hiti. The Hiti premises are cleaned in every Vaiśākha at the beginning of the festival when Buṅgadyaḥ’s chariot starts to take shape. Traditionally, water from this and other hitis used to be offered to Buṅgadyaḥ during the procession.", "link": "https://danam.cats.uni-heidelberg.de/report/63987fea-cd6d-11e9-92b4-0242ac140002", "img": [
+['images/panchadan/LAL2780_P_20190810_03_YPhTmu7.jpg','Taṅgaḥ Bāhāḥ, front view from N (August 2019)','NHDP'],
+['images/panchadan/procession/_MG_5438.jpg','The Mīnanātha rathārohaṇapūjā (pūjā for establishing the deity in the chariot) of Cākubahādyaḥ takes place outside the bahā. Tanga Baha, view from West.','Photo by Bijay Basukala (July 2020)'],
+['images/panchadan/procession/_MG_5441.jpg','The procession moves through the gate, leaving Tanga Baha. View from West','Photo by Bijay Basukala (July 2020)'],
+['images/panchadan/procession/_MG_5443.jpg','The procession passes by Thati Tole and the Satah. View from North','Photo by Bijay Basukala (July 2020)'],
+['images/panchadan/procession/_MG_5445.jpg','Mīnanatha chariot at Tanga Baha. From the South West','Photo by Bijay Basukala (July 2020)']
+]}, "geometry": { "type": "Point", "coordinates": [ 85.324352813522694, 27.670006750926571 ] } },
+
+{ "type": "Feature", "properties": { "id": 4, "name": "Taḥ Bāhāḥ (ca. 1427 CE) || त: बाहा:", "lal_nr": "LAL0050", "descript": "Taḥ Bāhāḥ is located at the western part of the Taṃgala Ṭola. Its classical name is Bhuvanākaravarmasaṃskārita Dharmakīrti Mahāvihāra.", "link": "https://danam.cats.uni-heidelberg.de/report/cb1604cc-eb5d-11e9-b125-0242ac130002", "img": [
+['images/panchadan/LAL0050_P_20190717__01.jpg','Taḥ Bāhāḥ, esoteric shrine, view from N (July 2019)','NHDP'],
+['images/panchadan/procession/_MG_5448.jpg','Procession circumbulates the great Matsyendranath Temple, Taḥbahā. View from Noth West','Photo by Bijay Basukala (July 2020)']
+]}, "geometry": { "type": "Point", "coordinates": [ 85.322779309375647, 27.670047685433008 ] } },
+
+{ "type": "Feature", "properties": { "id": 5, "name": "Amitābhamahāmaṇḍala Caitya (17th cent. CE) || अमिताभमहामण्डल चैत्य", "lal_nr": "LAL0170", "descript": " Amitābhamahāmaṇḍala Caitya (17th cent. CE) is situated at the centre of Dau Bāhā Nani. Dau Bāhāḥ (second half 17th cent. CE) is a monastic complex that can entered from a building to the west that has a five bayed phalcā on its ground floor.", "link": "https://danam.cats.uni-heidelberg.de/report/e7151050-eb4e-11e9-b125-0242ac130002", "img":[
+['images/panchadan/LAL0170_P_20181022_01.jpg','Amitābhamahāmaṇḍala Caitya, front view from E (October 2018)','NHDP'],
+['images/panchadan/procession/_MG_5450.jpg','Procession circumbulates the stupa in Dau Bāhāḥ. View from West','Photo by Bijay Basukala (July 2020)']
+]}, "geometry": { "type": "Point", "coordinates": [ 85.323145053634633, 27.674133939857704 ] } },
+
+{ "type": "Feature", "properties": { "id": 6, "name": "Hakha Bāhāḥ (c. 12th cent. CE) || हख बाहा:", "lal_nr": "LAL0390", "descript": "Hakha Bāhāḥ has a prominent place among the bāhāḥs of Patan: the Kumārī of Patan is housed here and is selected from its saṅgha members.", "link": "https://danam.cats.uni-heidelberg.de/report/d024e070-e7f5-11e9-b125-0242ac130002", "img":[
+['images/panchadan/LAL0390_P_20190126_07_JKiJUEX.jpg','Hakha Bāhāḥ, main shrine, view from N','Photo by Thomas Schrom; 2019-01-26'],
+['images/panchadan/procession/_MG_5462.jpg','Members of the Habahā Sarvasaṅgha Guṭhī offer a pūjā, including a bowl of rice pudding and 25 palmfuls of husked rice grains. Hakha Baha. View from North.','Photo by Bijay Basukala (July 2020)']
+]}, "geometry": { "type": "Point", "coordinates": [ 85.321774517455466, 27.673859866598427 ] } },
+
+{ "type": "Feature", "properties": { "id": 7, "name": "Naka Bahī (before 1658 CE) || नक बही", "lal_nr": "LAL0880", "descript": "This Naka Bahī is one of the major bahīs of Patan, also known as Gargadeva Saṃskārita Lokakīrti Mahāvihāra or Naḥ Bahī.", "link": "https://danam.cats.uni-heidelberg.de/report/e3074532-e806-11e9-8bc4-0242ac130002", "img":[
+['images/panchadan/LAL0880_P_20181126_03.jpg','Naka Bahī, view from N;','Photo by Nashib Kafle; 2018-11-26'],
+['images/panchadan/procession/_MG_5477.jpg','A Śākya (65) offers pūjā to Phudyaḥ at Luche Nani, Nakabahil. View from North.','Photo by Bijay Basukala (July 2020)'],
+['images/panchadan/procession/_MG_5480.jpg','Display of Lāmā āju at Luchhe Nani, Nakabahil. View from North.','Photo by Bijay Basukala (July 2020)']
+]}, "geometry": { "type": "Point", "coordinates": [85.32260812250654,27.67582534952112] } },
+
+{ "type": "Feature", "properties": { "id": 8, "name": "Jyo Bāhāḥ (at least 17th cent. CE) || ज्यो बाहा:", "lal_nr": "LAL1770", "descript": "According to a legend, Jyo Bāhāḥ was established during the reign of King Siddhinarasiṃha Malla together with Vajrakīrti Mahāvihāra and Om Bāhāḥ.", "link": "https://danam.cats.uni-heidelberg.de/report/4ed2374c-e846-11e9-8bc4-0242ac130002", "img":[
+['images/panchadan/LAL1770_P_20190325_02_jQ4y3BT.jpg','Jyo Bāhāḥ, view from N','Photo by Nashib Kafle; 2019-03-25']
+]}, "geometry": { "type": "Point", "coordinates": [ 85.326470914890621, 27.672877468487613 ] } },
+
+{ "type": "Feature", "properties": { "id": 9, "name": "Misā Hiti (probably built during the Licchavi period) || मिसा हिति", "lal_nr": "LAL1050", "descript": "The Misā Hiti (lit. ‘the Hiti for women’) is located adjacent to the main entrance of the Kumbheśvara Mandira and east of the Konti Hiti (LAL1030) at the Konti (Kumbheśvara) Ṭola. Even though it is commonly known as ‘Misā Hiti’ at the present, its original name, according to local community members, is ‘Miśra Hiti’. It is believed that the Hiti was constructed by the descendants of Kāśyapa Miśra who had constructed the Konti Bahī (LAL0101). The Hiti has seven water conduits (five of which are facing south, and two are facing west).", "link": "https://danam.cats.uni-heidelberg.de/report/fc1db1e6-4fae-4899-816a-e3c4d3da77d4", "img":[
+['images/panchadan/LAL1051_P_20210721_01.jpg','Misā Hiti, view from S','Photo by Yogesh Budathoki; 2021-07-21'],
+['images/panchadan/procession/IMG_5506.jpg','A member of the Śākya community lifts the statue of the deity out of the basket, at Mesa Hiti. View from North.','Photo by Bijay Basukala (July 2020)'],
+['images/panchadan/procession/IMG_5509.jpg','The deity is given a bath. Mesa Hiti, view from North.','Photo by Bijay Basukala (July 2020)'],
+['images/panchadan/procession/IMG_5518.jpg','Display of Lāmā āju at Luchhe Nani, Nakabahil. View from North.','Photo by Bijay Basukala (July 2020)'],
+['images/panchadan/procession/IMG_5521.jpg','The icon of Phudyḥ is wrapped by a piece of white cloth after the holy bath at Mesa Hiti. The icon is brought to Oku Bāhāḥ at Kumbheśvar area. It is seen as lifeless, thus dead, for the period of being wrapped in the cloth.','Photo by Bijay Basukala (July 2020)'],
+]}, "geometry": { "type": "Point", "coordinates": [85.32588364294014,27.676785588401287] } },
+
+
+{ "type": "Feature", "properties": { "id": 10, "name": "Oku Bāhāḥ (1114 CE) || ओकु बाहा:", "lal_nr": "LAL2260", "descript": "The Oku Bāhāḥ (Śivadevasaṃskārita Rudravarṇa Mahāvihāra) is situated at the southeast corner of Mangal Bazar. 'Oku' is derived from 'õkuli', an ancient Newari word denoting a southeastern direction. This vihāra is one of the oldest and most well-preserved bāhāḥ in Patan. It has the greatest number of branches (29) of all the bāhāḥ in the Valley and the second largest Saṅgha (Locke 1985, 90).", "link": "https://danam.cats.uni-heidelberg.de/report/1a7f3f24-ec12-11e9-8bc4-0242ac130002", "img":[
+['images/panchadan/LAL2260_P_20190416_02.jpg','Oku Bāhāḥ, esoteric building and courtyard, view from N','photo by Nashib Kafle; 2019-04-16'],
+['images/panchadan/procession/IMG_5522.jpg','Welcoming preparation for the deity at Oku Bāhāḥ. From North.','Photo by Bijay Basukala (July 2020)'],
+['images/panchadan/procession/IMG_5525.jpg','A female member of the Śākya community removes the white cloth and thus the deity is considered alive again. Oku Bāhāḥ. View from South.','Photo by Bijay Basukala (July 2020)'],
+['images/panchadan/procession/IMG_5532.jpg','Mrs Śākya performs a Valiṃ piye pūjā by moving powder made of beaten rice around the icon and burning it on the burning fire of charcoal thrice to ward off evil spirits. Oku Bāhāḥ, view from East.','Photo by Bijay Basukala (July 2020)'],
+['images/panchadan/procession/IMG_5533.jpg','The deity is offered a flower garland. Oku Bāhāḥ. View from East','Photo by Bijay Basukala (July 2020)'],
+['images/panchadan/procession/IMG_5539.jpg','Reverence of the deity. Oku Bāhāḥ. View from East','Photo by Bijay Basukala (July 2020)'],
+['images/panchadan/procession/IMG_5542.jpg','The deity is received at the main gate of Oku Bāhāḥ. View from South','Photo by Bijay Basukala (July 2020)'],
+['images/panchadan/procession/IMG_5543.jpg','The deity has reached the main courtyard of Oku Bāhāḥ. View from South','Photo by Bijay Basukala (July 2020)']
+]}, "geometry": { "type": "Point", "coordinates": [ 85.32720331864202, 27.66827264474472 ] } }
+]
+}
