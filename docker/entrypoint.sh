@@ -101,13 +101,23 @@ wait_for_db() {
 	echo "Database server is up"
 
     echo "Testing if Elasticsearch is up..."
+    counter=0
     while [[ ! ${return_code} == 0 ]]
     do
         curl -s "http://${ESHOST}:${ESPORT}/_cluster/health?wait_for_status=green&timeout=60s" >&/dev/null
         return_code=$?
-        sleep 1
+        if [[ ! ${return_code} == 0 ]]; then
+            if [[ ${counter} -ge 20 ]]; then
+                echo "Elasticsearch is still not up after 20 seconds. Exiting..."
+                exit 1
+            fi
+            echo "Elasticsearch is not up yet. Waiting for 1 second..."
+            sleep 1
+            ((counter++))
+    	fi
     done
     echo "Elasticsearch is up"
+    sleep 20
 }
 
 db_exists() {
